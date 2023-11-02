@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -43,4 +45,30 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //viewBinding
+    implementation("com.github.kirich1409:viewbindingpropertydelegate:1.5.6")
+    implementation("com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.6")
+
+    //Glide
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+
+    //RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
+    implementation("com.hannesdorfmann:adapterdelegates4:4.3.0")
+
+    val lifecycleVersion = "2.4.0"
+
+    //ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    implementation("androidx.fragment:fragment-ktx:1.4.1")
+
+    //LiveData
+    implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
+
+    //Navigation
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+
 }
