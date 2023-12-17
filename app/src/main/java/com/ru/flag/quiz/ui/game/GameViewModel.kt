@@ -81,7 +81,7 @@ class GameViewModel(application: Application) : AndroidViewModel(application) {
                 counter++
             }
 
-            delay(1500)  //(4)
+            delay(1000)  //(4)
 
             if (counter != cardList.size) {  //(5)
                 neutralButtonNumberLiveData.postValue(indexTrueAnswer + 1)

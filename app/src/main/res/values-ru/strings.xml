@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Угадай флаг</string>
+    <string name="error">Неизвестная ошибка</string>
+
+    <string name="sweden">Швеция</string>
+    <string name="china">Китай</string>
+    <string name="germany">Германия</string>
+    <string name="usa">США</string>
+    <string name="france">Франция</string>
+    <string name="russia">Россия</string>
+    <string name="austria">Австрия</string>
+    <string name="colombia">Колумбия</string>
+    <string name="cuba">Куба</string>
+    <string name="czech">Чехия</string>
+    <string name="egypt">Египет</string>
+    <string name="finland">Финляндия</string>
+    <string name="greatBritain">Великобритания</string>
+    <string name="greece">Греция</string>
+    <string name="hungary">Венгрия</string>
+    <string name="india">Индия</string>
+    <string name="indonesia">Индонезия</string>
+    <string name="iran">Иран</string>
+    <string name="iraq">Ирак</string>
+    <string name="irish">Ирландия</string>
+    <string name="israel">Израиль</string>
+    <string name="italy">Италия</string>
+    <string name="japan">Япония</string>
+    <string name="jordan">Иордания</string>
+    <string name="poland">Польша</string>
+    <string name="spain">Испания</string>
+    <string name="gdr">ГДР</string>
+    <string name="the_german_eprite">Германская империя</string>
+    <string name="the_russian_empire">Российская империя</string>
+    <string name="ussr">СССР</string>
+    <string name="argentina">Аргентина</string>
+    <string name="brazil">Бразилия</string>
+    <string name="england">Англия</string>
+    <string name="new_zealand">Новая Зеландия</string>
+    <string name="nigeria">Нигерия</string>
+    <string name="pakistan">Пакистан</string>
+    <string name="ukraine">Украина</string>
+    <string name="vietnam">Вьетнам</string>
+
+    <string-array name="countries">
+        <item>Австрия</item>
+        <item>Россия</item>
+        <item>Германия</item>
+        <item>Франция</item>
+        <item>Италия</item>
+        <item>Швеция</item>
+        <item>США</item>
+        <item>Китай</item>
+        <item>Великобритания</item>
+        <item>Колумбия</item>
+        <item>Куба</item>
+        <item>Чехия</item>
+        <item>Египет</item>
+        <item>Финляндия</item>
+        <item>Греция</item>
+        <item>Венгрия</item>
+        <item>Индия</item>
+        <item>Индонезия</item>
+        <item>Иран</item>
+        <item>Ирак</item>
+        <item>Ирландия</item>
+        <item>Израиль</item>
+        <item>Япония</item>
+        <item>Иордания</item>
+        <item>Польша</item>
+        <item>Испания</item>
+        <item>ГДР</item>
+        <item>Германская империя</item>
+        <item>Российская империя</item>
+        <item>СССР</item>
+        <item>Аргентина</item>
+        <item>Бразилия</item>
+        <item>Англия</item>
+        <item>Новая Зеландия</item>
+        <item>Нигерия</item>
+        <item>Пакистан</item>
+        <item>Украина</item>
+        <item>Вьетнам</item>
+    </string-array>
+</resources>

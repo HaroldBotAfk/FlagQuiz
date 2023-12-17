@@ -12,10 +12,18 @@
         tools:layout="@layout/fragment_menu">
         <action
             android:id="@+id/action_menuFragment_to_gameFragment"
-            app:destination="@id/gameFragment" />
+            app:destination="@id/gameFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
         <action
             android:id="@+id/action_menuFragment_to_developersFragment"
-            app:destination="@id/developersFragment" />
+            app:destination="@id/developersFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
@@ -25,6 +33,10 @@
         <action
             android:id="@+id/action_gameFragment_to_resultFragment"
             app:destination="@id/resultFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"
             app:popUpTo="@+id/nav_graph"
             app:popUpToInclusive="true" />
     </fragment>
@@ -41,6 +53,10 @@
         <action
             android:id="@+id/action_resultFragment_to_menuFragment"
             app:destination="@id/menuFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"
             app:popUpTo="@+id/nav_graph"
             app:popUpToInclusive="true" />
         <argument
@@ -49,6 +65,10 @@
         <action
             android:id="@+id/action_resultFragment_to_gameFragment"
             app:destination="@id/gameFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"
             app:popUpTo="@+id/nav_graph"
             app:popUpToInclusive="true" />
     </fragment>

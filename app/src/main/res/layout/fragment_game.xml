@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_game"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/flagImageView"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="80dp"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,52 +20,46 @@
 
     <Button
         android:id="@+id/someFlagButton1"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="4dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toStartOf="@+id/someFlagButton2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/flagImageView"
         tools:text="Китай" />
 
     <Button
         android:id="@+id/someFlagButton2"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
+        android:layout_marginTop="2dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/someFlagButton1"
-        app:layout_constraintTop_toBottomOf="@id/flagImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/someFlagButton1"
         tools:text="Финляндия" />
 
     <Button
         android:id="@+id/someFlagButton3"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
+        android:layout_marginTop="2dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toStartOf="@+id/someFlagButton4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/someFlagButton1"
+        app:layout_constraintTop_toBottomOf="@id/someFlagButton2"
         tools:text="Швеция" />
 
     <Button
         android:id="@+id/someFlagButton4"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/someFlagButton3"
-        app:layout_constraintTop_toBottomOf="@id/someFlagButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/someFlagButton3"
         tools:text="Германия" />
 
     <TextView

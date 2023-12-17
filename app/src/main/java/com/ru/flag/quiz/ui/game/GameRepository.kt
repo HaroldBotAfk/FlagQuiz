@@ -35,7 +35,19 @@ class GameRepository(context: Application) {
         context.getString(R.string.japan) to R.drawable.japan,
         context.getString(R.string.jordan) to R.drawable.jordan,
         context.getString(R.string.poland) to R.drawable.poland,
-        context.getString(R.string.spain) to R.drawable.spain
+        context.getString(R.string.spain) to R.drawable.spain,
+        context.getString(R.string.gdr) to R.drawable.gdr,
+        context.getString(R.string.the_german_eprite) to R.drawable.german_empire,
+        context.getString(R.string.the_russian_empire) to R.drawable.russian_empire,
+        context.getString(R.string.argentina) to R.drawable.argentina,
+        context.getString(R.string.brazil) to R.drawable.brazil,
+        context.getString(R.string.england) to R.drawable.england,
+        context.getString(R.string.new_zealand) to R.drawable.new_zealand,
+        context.getString(R.string.nigeria) to R.drawable.nigeria,
+        context.getString(R.string.pakistan) to R.drawable.pakistan,
+        context.getString(R.string.ukraine) to R.drawable.ukraine,
+        context.getString(R.string.vietnam) to R.drawable.vietnam,
+
     )
 
     fun createFlagCardList(): List<FlagCard> {

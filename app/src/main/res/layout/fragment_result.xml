@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_menu"
     android:padding="10dp">
 
     <TextView
@@ -11,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Result"
+        android:text="Результат"
+        android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@id/numberResultTextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,10 +36,11 @@
 
     <Button
         android:id="@+id/tryAgainButton"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Try again"
+        android:text="Попробовать снова"
         app:layout_constraintBottom_toTopOf="@id/mainMenuButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,9 +48,10 @@
 
     <Button
         android:id="@+id/mainMenuButton"
+        style="@style/ButtonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="In main menu"
+        android:text="Главное меню"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,60 +1,84 @@
 <resources>
     <string name="app_name">FlagQuiz</string>
-    <string name="error">Неизвестная ошибка</string>
+    <string name="error">Unknown error</string>
 
-    <string name="sweden">Швеция</string>
-    <string name="china">Китай</string>
-    <string name="germany">Германия</string>
-    <string name="usa">США</string>
-    <string name="france">Франция</string>
-    <string name="russia">Россия</string>
-    <string name="austria">Австрия</string>
-    <string name="colombia">Колумбия</string>
-    <string name="cuba">Куба</string>
-    <string name="czech">Чехия</string>
-    <string name="egypt">Египет</string>
-    <string name="finland">Финляндия</string>
-    <string name="greatBritain">Великобритания</string>
-    <string name="greece">Греция</string>
-    <string name="hungary">Венгрия</string>
-    <string name="india">Индия</string>
-    <string name="indonesia">Индонезия</string>
-    <string name="iran">Иран</string>
-    <string name="iraq">Ирак</string>
-    <string name="irish">Ирландия</string>
-    <string name="israel">Израиль</string>
-    <string name="italy">Италия</string>
-    <string name="japan">Япония</string>
-    <string name="jordan">Иордания</string>
-    <string name="poland">Польша</string>
-    <string name="spain">Испания</string>
+    <string name="sweden">Sweden</string>
+    <string name="china">China</string>
+    <string name="germany">Germany</string>
+    <string name="usa">USA</string>
+    <string name="france">France</string>
+    <string name="russia">Russia</string>
+    <string name="austria">Austria</string>
+    <string name="colombia">Colombia</string>
+    <string name="cuba">Cuba</string>
+    <string name="czech">Czech</string>
+    <string name="egypt">Egypt</string>
+    <string name="finland">Finland</string>
+    <string name="greatBritain">Great Britain</string>
+    <string name="greece">Greece</string>
+    <string name="hungary">Hungary</string>
+    <string name="india">India</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="iran">Iran</string>
+    <string name="iraq">Iraq</string>
+    <string name="irish">Irish</string>
+    <string name="israel">Israel</string>
+    <string name="italy">Italy</string>
+    <string name="japan">Japan</string>
+    <string name="jordan">Jordan</string>
+    <string name="poland">Poland</string>
+    <string name="spain">Spain</string>
+    <string name="gdr">GDR</string>
+    <string name="the_german_eprite">The German Empire</string>
+    <string name="the_russian_empire">The Russian Empire</string>
+    <string name="ussr">USSR</string>
+    <string name="argentina">Argentina</string>
+    <string name="brazil">Brazil</string>
+    <string name="england">England</string>
+    <string name="new_zealand">New Zealand</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="vietnam">Vietnam</string>
 
     <string-array name="countries">
-        <item>Австрия</item>
-        <item>Россия</item>
-        <item>Германия</item>
-        <item>Франция</item>
-        <item>Италия</item>
-        <item>Швеция</item>
-        <item>США</item>
-        <item>Китай</item>
-        <item>Великобритания</item>
-        <item>Колумбия</item>
-        <item>Куба</item>
-        <item>Чехия</item>
-        <item>Египет</item>
-        <item>Финляндия</item>
-        <item>Греция</item>
-        <item>Венгрия</item>
-        <item>Индия</item>
-        <item>Индонезия</item>
-        <item>Иран</item>
-        <item>Ирак</item>
-        <item>Ирландия</item>
-        <item>Израиль</item>
-        <item>Япония</item>
-        <item>Иордания</item>
-        <item>Польша</item>
-        <item>Испания</item>
+        <item>Austria</item>
+        <item>Russia</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Sweden</item>
+        <item>USA</item>
+        <item>China</item>
+        <item>Great Britain</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+        <item>Czech</item>
+        <item>Egypt</item>
+        <item>Finland</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Irish</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Poland</item>
+        <item>Spain</item>
+        <item>GDR</item>
+        <item>The German Empire</item>
+        <item>The Russian Empire</item>
+        <item>USSR</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>England</item>
+        <item>New Zealand</item>
+        <item>Nigeria</item>
+        <item>Pakistan</item>
+        <item>Ukraine</item>
+        <item>Vietnam</item>
     </string-array>
 </resources>
